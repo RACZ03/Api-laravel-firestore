@@ -22,8 +22,8 @@ To run this project, install it locally using composer:
 $ cd .../projectName
 $ composer install
 $ npm install ( optional )
-$ create database evaluationsdb
 $ create file .env ( copy file .env.expample and rename it to .env )
+$ add variable in .env (FIREBASE_CREDENTIALS=credentials.json)
 $ create key applicaction ( php artisan key:generate )
 $
 ```
